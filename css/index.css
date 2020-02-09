@@ -79,6 +79,10 @@ p {
 .card-link:hover {
     color: #F27289 !important;
 }
+.card-title {
+    font-family: 'Lora Bold', Serif;
+    font-weight: 400;
+}
 .card-text {
     color: black;
 }
@@ -109,6 +113,8 @@ p {
     margin-bottom: 15px;
     color: white;
     text-align: center;
+    font-family: 'Merriweather Light', serif;
+    font-size: 15px;
 }
 .blockquote {
     margin-top: 50px;
