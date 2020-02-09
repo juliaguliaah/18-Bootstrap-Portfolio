@@ -1,0 +1,154 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.card {
+    margin: 15px;
+}
+.navbar {
+    justify-content: space-between;
+    height: 85px;
+}
+.navbar-brand {
+    font-family: 'Lora Regular', serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #F27289 !important;
+}
+.nav-link {
+    font-family: 'Merriweather Light', serif;
+}
+.nav-item .nav-link:hover {
+    color: #F27289 !important;
+}
+.collapse {
+    flex-grow: 0 !important;
+}
+.navbar-collapse {
+	flex-grow: 0 !important; /* aligns the navbar to the right side, and ensures justify content = space between"*/
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: transparent;
+}
+
+h1 {
+    font-family: 'Lora Light', serif;
+    color: white;
+}
+p {
+    font-family: 'Merriweather Light', serif;
+    color: white;
+}
+.hiJulia {
+    background-color: rgba(255,255,255, 0.3);
+    width: 50%;
+}
+.btn {
+    background-color: #f27289;
+    border-width: 0ch;
+}
+.btn:hover {
+    background-color: #D2D6D9;
+    color: black;
+}
+.jumbotronHero {
+   
+    background-image: url(../Images/pawel-czerwinski-hR545CzxZxk-unsplash.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    margin-bottom: 70px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(247, 154, 174, 0.2);
+    margin: 30px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-link {
+    color: black;
+}
+.card-link:hover {
+    color: #F27289 !important;
+}
+.card-text {
+    color: black;
+}
+.display-4 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.jumbotron-fluid .lead {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+.jumbotron-fluid {
+    background-color: #F2C2C2;
+    margin-top: 70px;
+}
+.jumbotron img {
+    height: 300px;
+    width: auto;
+    background-position: center;
+    border-radius: 50%;
+}
+.table {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+.blockquote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.mb-0 {
+    color: black;
+    font-size: 25px;
+}
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #F2C2C2;
+}
+.topFooter {
+    background-color: #D2D6D9;
+    margin-bottom: 1;
+    padding-bottom: 0;
+    margin-top: 5px;
+}
+h3 {
+    font-size: 20px;
+    font-family: 'Lora Regular', serif;
+    text-align: center;
+    color: black;
+    margin-bottom: -10px;
+    padding-top: 30px;
+}
+.footer {
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center !important;
+    background-color: #D2D6D9;
+}
+.nav-link {
+    color: black;
+}
+.nav-link:hover {
+    color: #F27289;
+}
