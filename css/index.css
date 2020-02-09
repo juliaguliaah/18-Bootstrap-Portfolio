@@ -50,10 +50,12 @@ p {
 .btn {
     background-color: #f27289;
     border-width: 0ch;
+    font-family: 'Merriweather Light', serif;
 }
 .btn:hover {
     background-color: #D2D6D9;
     color: black;
+    font-family: 'Merriweather Light', serif;
 }
 .jumbotronHero {
    
