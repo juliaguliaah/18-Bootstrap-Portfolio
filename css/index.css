@@ -160,15 +160,22 @@ form {
     margin-top: 25px;
 }
 .form-control {
-    color: #495057
+    color: #495057;
 }
 textarea.form-control {
     height: 150PX;
 }
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #f27289 !important;
+    background-color: white !important;
+    margin-top: 15px;
+    float: left;
+}
 .footer {
     height: 100px;
     display: flex;
-    align-content: center;
+    align-content: center !important;
     justify-content: center !important;
     background-color: #D2D6D9;
 }
