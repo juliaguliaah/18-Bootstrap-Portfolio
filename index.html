@@ -42,17 +42,19 @@
           <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">about</a>
+          <a class="nav-link js-scroll-trigger" href="#AboutMe">about</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
+          <a class="nav-link js-scroll-trigger" href="#Contact">contact</a>
         </li>
       </ul>
     </div>
   </nav>
+<!--back to top button-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 <!-- jumbotron -->
 <section class="jumbotron jumbotronHero">
     <div class="jumbotron hiJulia">
@@ -71,7 +73,7 @@
               <p class="card-text">Complete redesign of a non-profits desktop and mobile view. As well as redesign of student course sign up.</p>
             </div>
             <div class="card-body">
-              <a href="casestudy.html" class="card-link">View Case Study</a>
+              <a href="casestudy.html" class="card-link" data-toggle="tooltip" data-placement="right" data-html="true" title="Click Here to View More">View Case Study</a>
             </div>
         </div>
         <div class="card" style="width: 25rem;">
@@ -112,7 +114,7 @@
 
 <!-- about-->
 <section>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="AboutMe">
         <div class="container profileimg">
           <h1 class="display-4">Julia Santana</h1>
           <p class="lead">Is a UX/UI Designer. Born and raised in a small farm town in central California, then moved to the big city of Santa Barbara to attend UCSB. After graduating with a Bachelor's degree in Fine Art she moved to Orange County. After some self discovery, she enrolled in the UX/UI program a UCI and never looked back. She enjoys true crime podcasts, cooking, and creating beautiful things. .</p>
@@ -160,7 +162,7 @@
 </section>
 <!--footer-->
 <section>
-<div class="topFooter">
+<div class="topFooter" id="Contact">
     <h3>Let's Connect</h3>
     <form>
       <div class="row">
@@ -212,6 +214,23 @@
 
   gtag('config', 'UA-158598679-1');
 </script>
-
+<script>
+  var mybutton = document.getElementById("myBtn");
+  
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
 
 </html>
