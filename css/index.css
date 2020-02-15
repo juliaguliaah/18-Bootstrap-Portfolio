@@ -104,6 +104,7 @@ p {
     margin-top: 70px;
 }
 .profileimg img {
+    background-image: url(../Images/IMG_6156.jpg);
     height: 300px;
     width: auto;
     background-position: center;
